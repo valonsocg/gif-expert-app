@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const GiftItem = ({ title, url }) => {
   return (
     <div className="card">
@@ -8,3 +9,8 @@ const GiftItem = ({ title, url }) => {
 };
 
 export default GiftItem;
+
+GiftItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};

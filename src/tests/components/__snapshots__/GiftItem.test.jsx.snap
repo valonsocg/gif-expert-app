@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`testing <GiftItem /> > debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="One Punch"
+      src="https://www/one-punch.com/one.jpg"
+    />
+    <p>
+      One Punch
+    </p>
+  </div>
+</div>
+`;
